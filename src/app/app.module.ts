@@ -13,6 +13,7 @@ import { EducationComponent } from './education/education.component';
 import { ReferenceComponent } from './reference/reference.component';
 import { ContactComponent } from './contact/contact.component';
 import { FootComponent } from './foot/foot.component';
+import { PortfolioIconbuttonComponent } from './portfolio/portfolio-iconbutton/portfolio-iconbutton.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FootComponent } from './foot/foot.component';
     ReferenceComponent,
     ContactComponent,
     FootComponent,
+    PortfolioIconbuttonComponent,
   ],
   imports: [
     BrowserModule,

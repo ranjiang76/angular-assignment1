@@ -1,0 +1,50 @@
+.circle-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-laptop {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/assets/laptop.svg");
+  background-size: cover;
+}
+
+.icon-picture {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/assets/card-image.svg");
+  background-size: cover;
+}
+
+.icon-camera {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/assets/camera.svg");
+  background-size: cover;
+}
+
+.iconbutton-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-left: 43%;
+}
+
+.circle-btn:hover {
+  background-color:green;
+}
+.container div-picture {
+  flex: 1;
+  min-width: 250px;
+}
